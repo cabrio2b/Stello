@@ -10,7 +10,7 @@
             </div>
             <ul class="list-group list-group-flush">
                 @foreach ($category->tasks as $task)
-                <form action="{{ route('tasks.destroy', $task->id) }}" method="POST">
+                <form class="showTask" action="{{ route('tasks.destroy', $task->id) }}" method="POST">
                     <li class="task list-group-item">
                         <label class="switch">
                             <input type="checkbox">

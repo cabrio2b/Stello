@@ -13,7 +13,7 @@
 }
 
 div#imageProjectFond.card {
-    --bs-card-bg: rgba(255, 255, 255, 0);
+    --bs-card-bg: rgba(255, 255, 255, 0.505);
 }
 
 .login {
@@ -43,6 +43,10 @@ div#imageProjectFond.card {
 
 .task {
     padding-left: 41px;
+}
+
+.showTask{
+    margin-bottom: -1px;
 }
 
 /* The switch - the box around the slider */
